@@ -1,5 +1,4 @@
 # html-radhe1905
-THIS IS MY PROJECT
 <!DOCTYPE html>
 <html lang="en">
 <head>
