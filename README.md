@@ -1,4 +1,3 @@
-# html-radhe1905
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,6 +30,34 @@
     align-items: flex-start;
     width: 100%;
 }
+
+        @media (max-width: 800px) {
+            #details-container {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            #detail1, #detail2 {
+                padding: 20px 10px;
+                text-align: left;
+                flex: unset;
+            }
+            #detail2 {
+                text-align: left;
+                padding-top: 0;
+            }
+            #title {
+                padding: 20px 10px;
+                font-size: medium;
+            }
+            #text {
+                padding: 10px 5px;
+            }
+            header img {
+                width: 100%;
+                max-width: 300px;
+                height: auto;
+            }
+        }
         #detail1 {
     padding: 50px;
     flex: 1;
